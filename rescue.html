@@ -1,0 +1,46 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Rescue Form</title>
+    <link rel="stylesheet" href="rescue.css">
+    <script src="head-foot.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <h1>Animal Rescue Form</h1>
+    <form id="rescue-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Phone:</label>
+        <input type="number" id="phone" name="phone" required>
+
+        <label for="animal-type">Type of Animal:</label>
+        <select id="animal-type" name="animal-type" required>
+            <option value="">Select an option</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="cow">Cow</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="custom">Other Animal (specific):</label>
+        <input type="text" id="custom" name="custom" >  
+
+        <label for="animal-description">Description of Animal:</label>
+        <textarea id="animal-description" name="animal-description" required></textarea>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="rescue.js"></script>
+    <div id="footer"></div>
+</body>
+</html>

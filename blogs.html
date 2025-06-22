@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <style>
+         *{font-family: "arial rounded mt bold";
+            color: rgb(145, 149, 149);
+    }
+    
+        
+         .navbar {
+  overflow: visible;
+  background-color: #333;
+  height: 80px; /* set the height of the navbar to 60px */
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  /* overflow: hidden; */
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 50px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: brown;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+image
+{ border: 100px;
+  padding-left: 1000px;
+   background: local;}
+
+.nav-btn {
+  float: left;
+  font-size: 8px;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.nav-btn:hover {
+  background-color: brown;
+}
+        .div-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgba(151, 137, 110, 0.2);
+
+
+        }
+
+        .crd {
+            float: left;
+            width: 20%;
+            height: 380px;
+            transition: transform 2s;
+            border: 4px 4px 4px 1px solid rgb(144, 116, 116);
+
+        }
+
+
+
+        .in {
+            border-top: 5px solid orange;
+            font-family: "arial rounded mt bold";
+            color: rgb(93, 90, 90);
+
+        }
+
+        .at {
+            font-family: "arial rounded mt bold";
+            color: rgb(145, 149, 149);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <img src=" large.png" width="240px" height="70px" style="float: left;" >
+        <a href="home.html">Home</a>
+        <a href="blogs.html">Blogs</a>
+        <div class="dropdown">
+          <button class="dropbtn">Our Info 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="about us.html">About Us</a>
+            <a href="vision-mission.html">Vission & Mission</a>
+           
+          </div>
+        </div> 
+        <a href="what we do.html">What we Do</a>
+        <div class="dropdown">
+            <button class="dropbtn">Ways to Help 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Donation-form.html">Donations</a>
+              <a href="adoption-form.html">Adoptions</a>
+              <a href="volunteer.html">Volunteering</a>
+              <a href="repot animal abuse.html">Report Animal Abuse</a>
+            </div>
+        </div> 
+          <a href="Contact-Us.html">Contact Us</a>
+          <button class="nav-btn"><a href="Donation-form.html">Donate Now</a></button>
+          <button class="nav-btn"><a href="login.html">LogIn/SignUp</a></button>
+      
+      
+    </div>
+    
+    <div class="container-fluid div-card ">
+        <div class="card crd m-3 bg-black">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2023/04/cow-injured-copy-2.jpg?fit=1200%2C800&ssl=1"
+                    class="w-100" alt="cow">
+
+                <p class="in mt-3 pt-3">
+                    Why Do People Abuse Animals?
+                    <br>
+                <p class=" at">
+                    Why do people abuse animals? This is a question that many animal lovers and activists ask
+                </p>
+
+                </p>
+
+
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src=" https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2023/10/shutterstock_1848919171-scaled.jpg?fit=2560%2C1708&ssl=1"
+                    alt="dog" class="w-100" >
+
+
+                <p class="in mt-3 pt-3">
+                    The Role of Social Media in Animal Adoption
+                    <br>
+                    <p class="at">In recent years, social media has emerged as a powerful tool . 
+
+                </p>
+                </p>
+
+
+            </div>
+        </div>
+        <div class="card crd m-3">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2021/01/1SV_6246.jpg?resize=500%2C331&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                    Frail to Athlete
+                    <br>
+                    <p  class ="at">On the streets of India, dogs are hated like the plague. This discrimination makes people believe that street dogs are.
+
+                </p>
+                </p>
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2023/07/Why-You-Should-Consider-Adopting-a-Stray-Animal-as-a-Pet.jpg?resize=500%2C334&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                    5 Reasons Why You Should Consider Adopting a Stray Animal as a Pet
+                    <br>
+
+
+                <p class="at">5 Reasons Why You Should Consider Adopting a Stray Animal as a Pet. 
+                </p>
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2023/09/Youtube-Thumbnail-.png?resize=500%2C282&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                    The Importance of Rabies Prevention in India
+
+
+                <p class="at">
+                    India faces a grave public health crisis with approximately 20,000 rabies deaths each year. 
+
+
+
+                </p>
+                </p>
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2022/09/DSC_0311-copy.jpg?resize=500%2C378&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                    How do we decide whether to keep or to release?
+                    <br>
+
+                <p class="at">
+                    How do we decide whether to keep or to release? Tough Choice When a dog 
+
+                </p>
+                </p>
+
+
+            </div>
+        </div>
+         <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-28-at-2.46.40-AM.jpeg?resize=500%2C368&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                  The Importance of Spaying and Neutering Pets
+
+
+                <p class="at">
+                  The Importance of Spaying and Neutering Pets Spaying and neutering are two processes 
+
+                </p>
+                </p>
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2023/11/Myths-and-Facts-About-Stray-Animals.jpg?resize=500%2C333&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                  Myths and Facts About Stray Animals
+
+
+                <p class="at">
+                  Myths and Facts About Stray Animals When it comes to stray animals, misinformation often leads to negative attitudes
+
+                </p>
+                </p>
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2024/01/educate-children-about-animal-welfare.jpg?resize=600%2C400&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                  How to Educate Children About Animal Welfare
+
+
+                <p class="at">
+                  How to Educate Children About Animal Welfare In the journey of molding compassionate and responsible citizens 
+
+                </p>
+                </p>
+
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2023/07/What-Is-a-Pet-Adoption-Kit.jpg?resize=500%2C334&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                  What Is a Pet Adoption Kit?
+
+
+                <p class="at">
+                  Stray animals can often find themselves in dire situations. Without adequate care, they are left exposed to various risks.
+
+                </p>
+                </p>
+
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2023/04/DSC_4679-copy.jpg?resize=500%2C334&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                  3 Ways To Help Stray Animals
+
+
+                <p class="at">
+                  3 Ways To Help Stray Animals Stray animals are domestic animals—mainly dogs and cats—that live on the streets a
+
+                </p>
+                </p>
+
+
+
+            </div>
+        </div>
+        <div class="card crd m-3 ">
+            <div class="card-body">
+                <img src="https://i0.wp.com/strayanimalfoundationindia.org/wp-content/uploads/2024/01/shutterstock_1914876964-scaled.jpg?resize=600%2C400&ssl=1" alt="dog" class="w-100">
+                <p class="in mt-3 pt-3">
+                  The Role of Community in Stray Animal Welfare
+
+
+                <p class="at">
+                  The Role of Community in Stray Animal Welfare In every corner of the globe, communities face the challenge of
+
+                </p>
+                </p>
+
+
+
+            </div>
+        </div>
+        
+    </div>
+    <div>
+        <footer class="bg-dark text-center text-lg-start text-white">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">                                       
+           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+           <!-- Remove the container if you want to extend the Footer to full width. -->
+             <!-- Grid container -->
+             <div class="container p-4 bg-dark">
+               <!--Grid row-->
+               <div class="row my-4">
+                 <!--Grid column-->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+         
+                   <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+                     <img src="pj-hand.jpg" height="70" alt=""
+                          loading="lazy" />
+                   </div>
+         
+                   <p class="text-center"> "Voices for the Voiceless " is a charitable project which works for the welfare of suffering animals and birds and all living things.</p>
+         
+                   <ul class="list-unstyled d-flex flex-row justify-content-center">
+                     <li>
+                       <a class="text-white px-2" href="#!">
+                         <i class="fab fa-facebook-square"></i>
+                       </a>
+                     </li>
+                     <li>
+                       <a class="text-white px-2" href="#!">
+                         <i class="fab fa-instagram"></i>
+                       </a>
+                     </li>
+                     <li>
+                       <a class="text-white px-2" href="#!">
+                         <i class="fab fa-twitter-square"></i>
+                       </a>
+                     </li>
+                     <li>
+                       <a class="text-white ps-2" href="#!">
+                         <i class="fab fa-whatsapp"></i>
+                       </a>
+                     </li>
+                   </ul>
+         
+                 </div>
+                 <!--Grid column-->
+         
+                 <!--Grid column-->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                   <h5 class="text-uppercase mb-4">Ways to help</h5>
+         
+                   <ul class="list-unstyled">
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Donation Options</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Volunteer</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Adoption</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Fundraise</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Material gifts</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Report Animal Abuse/cruelty</a>
+                     </li>
+                   </ul>
+                 </div>
+                 <!--Grid column-->
+         
+                 <!--Grid column-->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                   <h5 class="text-uppercase mb-4">What We Do</h5>
+         
+                   <ul class="list-unstyled">
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Rescue</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Provide Shelter</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Provide Medical Treatment</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Sanctuary for Disabled</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Adopt and Release</a>
+                     </li>
+                     <li class="mb-2">
+                       <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Support Them</a>
+                     </li>
+                   </ul>
+                 </div>
+                 <!--Grid column-->
+         
+                 <!--Grid column-->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                   <h5 class="text-uppercase mb-4">Contact</h5>
+         
+                   <ul class="list-unstyled">
+                     <li>
+                       <p><i class="fas fa-map-marker-alt pe-2"></i>Ashok Complex Andheri-West, Maharashtra 400063</p>
+                     </li>
+                     <li>
+                       <p><i class="fas fa-phone pe-2"></i>+91 7877374271,<br> +91 7684883610</p>
+                     </li>
+                     <li>
+                       <p><i class="fas fa-envelope pe-2 mb-0"></i>contact@anicare.co.in</p>
+                     </li>
+                   </ul>
+                 </div>
+                 <!--Grid column-->
+               </div>
+               <!--Grid row-->
+             </div>
+             <!-- Grid container -->
+         
+             <!-- Copyright -->
+             <div class="text-center p-3" style="background-color: black" ;>
+               Copyright &copy; : Voice for the Voiceless | All Rights Reserved |
+               <a class="text-white" href="Home.html">AniCare.co.in</a>
+             </div>
+             <!-- Copyright -->
+           </footer>
+         
+         </div>
+         <!-- End of .container -->
+       </footer>
+
+      
+
+</body>
+
+</html>
